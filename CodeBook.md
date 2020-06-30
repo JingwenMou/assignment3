@@ -26,3 +26,15 @@ The initial data files:
 - Then use the grep function to extract the mean and standard deviation(std).
 
 3. Uses descriptive activity names to name the activities in the data set
+- Reads activity_labels.txt and gets the following descriptive names:
+    - walking
+    - walkingupstairs
+    - walkingdownstairs
+    - sitting
+    - standing
+    - laying
+
+4. Appropriately labels the data set with descriptive variable names.
+- Replace the names of some variables in the data set with a clearer name using sub function.
+
+5. The last step creates a new tidy data frame with the average of each variable for each activity and each subject.
